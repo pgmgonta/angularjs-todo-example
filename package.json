@@ -1,0 +1,16 @@
+{
+  "name": "angularjs-todo",
+  "version": "0.0.0",
+  "description": "Angularjs example todo application.",
+  "main": "app/index.html",
+  "scripts": {
+    "postinstall": "bower install",
+    
+    "start": "http-server -p 8000"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "pgm.gonta",
+  "license": "MIT"
+}

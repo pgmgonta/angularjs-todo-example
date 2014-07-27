@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" ng-app="todoApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Todo Example</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/controller.js"></script>
+  </head>
+  <body ng-controller="TodoListCtrl">
+    <p> {{'todo' + 'lists'}}</p>
+    <ul>
+      <li ng-repeat = "todo in todos">
+      <p>{{ todo.title    }} </p>
+        <p>{{todo.comment }} </p>
+      </li>
+    </ul>
+  </body>
+</html>
