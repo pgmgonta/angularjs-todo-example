@@ -1,0 +1,20 @@
+{
+  "name": "angularjs-todo",
+  "version": "0.0.0",
+  "authors": [
+    "pgmgonta <pgm.gonta@gmail.com>"
+  ],
+  "description": "AngluarJS Example Application.",
+  "main": "app/app.json",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
